@@ -1,0 +1,94 @@
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" >
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+
+                <form [formGroup]="sellingForm" (ngSubmit)="onSubmit()"> 
+                    <div class="form-group">
+                        <label>Crop Type</label>
+                        <input type="text" formControlName="ctname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ctname.errors }" />
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label>Crop Name</label>
+                        <input type="text" formControlName="cnname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cnname.errors }"  />
+                    </div>
+                    <br>
+
+
+                    <div class="form-group">
+                        <label>Fertilizer Type</label>
+                        <input type="text" formControlName="ftname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ftname.errors }" />
+    
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <input type="number" formControlName="qname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.qname.errors }" />
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label>Soil pH Certificate</label>
+                        <input type="number" formControlName="spname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.spname.errors }" />
+                        
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label>Bidder Id</label>
+                        <input type="text" formControlName="bname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.bname.errors }"  />
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label>Bid Amount</label>
+                        <input type="text" formControlName="bamname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.bamname.errors }"  />
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label>Status</label>
+                        <input type="text" formControlName="sname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.sname.errors }"  />
+                    </div>
+
+                   
+                    <br>
+                    <div class="form-group">
+    
+                    <button><a href="insurance.html" [routerLink]="'/insurance'" ><h3><b style="color: rgb(3, 1, 19); ">PLACE REQUEST</b></h3></a> </button>
+                    <button> <a href="login.html" [routerLink]="'/login'"><h3><b style="color: rgb(5, 5, 14);">Back</b></h3></a> </button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        
+                    </div>
+
+                    </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

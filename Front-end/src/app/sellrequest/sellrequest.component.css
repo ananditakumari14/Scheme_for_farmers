@@ -1,0 +1,15 @@
+.container{
+	background-color: white;
+	width:100%;
+  height: 85%;
+  padding-bottom: 30px;
+  align-items: center;
+  background-image: url('../../assets/homeImages/background3.jpg');
+}
+
+.form-group{
+  align-items: center;
+  margin-left: 40%;
+}
+
+
