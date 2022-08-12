@@ -1,0 +1,63 @@
+<br>
+<br>
+
+<form [formGroup]="ViewmarketplaceForm" (ngSubmit)="onSubmit()">
+<div class="form" >
+    <br>
+<br>
+<br>
+<br>  
+    <div class="form-group">
+    <label>Crop Type-</label>
+    <input type="text" formControlName="ctname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ctame.errors }" />
+    <div *ngIf="submitted && f.ctname.errors" class="invalid-feedback">
+    </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>   
+    
+
+<div class="form-group">
+    <label>Crop Name-</label>
+    <input type="text" formControlName="cropname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cropname.errors }" />
+    <div *ngIf="submitted && f.cropname.errors" class="invalid-feedback">
+    </div>
+</div>
+
+<br>
+<br>
+<br>  
+
+<div class="form-group">
+    <label>Base Price-</label>
+    <input type="text" formControlName="bname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.bname.errors }" />
+    <div *ngIf="submitted && f.bname.errors" class="invalid-feedback">
+    </div>
+</div>
+    
+
+<br>
+<br>
+<br>
+<br>   
+
+
+               
+                <br>
+                <br>               
+         <Button type="submit" class="bidbtn">Current Bid Amount</Button>
+         <br>
+         <br>
+         <br>
+         <br>
+           
+
+<p>Previous Bids</p>
+<p>-----</p>
+<p>------</p>
+<p>-----</p>
+
+</div>
+ </form>
