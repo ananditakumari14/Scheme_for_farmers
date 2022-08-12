@@ -1,6 +1,0 @@
-.container
-{
-    background-image: url('../../assets/homeImages/background.jpg');
-    height: 638px;
-    width: 1340px;
-}
