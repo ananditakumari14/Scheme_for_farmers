@@ -1,0 +1,18 @@
+
+    <div class="contain">
+        <link rel="stylesheets" href="farmer-welcome2.component.css">
+                <div class="container2"> 
+                    <h1><b style="font-family: Lucida Handwriting;">Welcome {{fullname}} </b> </h1>
+                    <br>
+                    <p>
+                       <button><a href="sellrequest" [routerLink]="'/sellrequest'" style="color:#26269c;font-size:25px; font-family:Constantia;">Place Sell request</a> </button>
+                    </p><br>
+                    <p>
+                        <button><a href="viewsoldhistory.html" [routerLink]="'/viewsoldhistory'" style="color:#26269c;font-size:25px; font-family:Constantia ;">View Sold Crop History</a></button>
+                    </p><br>
+                    <p>
+                      <button> <a href="viewmarketplace.html" [routerLink]="'/viewmarketplace'" style="color:#26269c;font-size:25px; font-family:Constantia;">View Marketplace</a> </button>
+                    </p><br>
+                    <button (click)=logoutUser() class="btn btn-success"> <h3>Logout</h3> </button><br>    
+                </div>
+            </div>
